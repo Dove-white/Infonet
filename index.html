@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Infonet</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body
+    class="bg-[url('/img/wp.png')] bg-no-repeat bg-cover bg-center bg-fixed overflow-x-hidden"
+  >
+    <header>
+      <section class="lg:flex items-center justify-around lg:mt-4">
+        <figure
+          id="logo"
+          class="flex items-center h-8 sm:h-12 gap-[0.2rem] m-4 sm:m-6 lg:m-0"
+        >
+          <div class="w-5 sm:w-7 h-5 sm:h-7 relative self-start">
+            <div class="bg-blue-800 w-full h-full rounded-full"></div>
+            <div
+              class="bg-white w-1/3 h-1/3 rounded-full absolute bottom-[20%] left-[50%]"
+            ></div>
+          </div>
+          <div>
+            <h3
+              class="text-sm sm:text-xl font-bold text-right leading-[8px] sm:leading-[8px]"
+            >
+              Infonet<br /><span class="text-[8px] sm:text-[10px] sm:font-[600]"
+                >PROJECT</span
+              >
+            </h3>
+          </div>
+        </figure>
+        <input type="checkbox" class="hidden" id="check" />
+        <label
+          id="nav-icons"
+          for="check"
+          class="absolute inline-flex top-7 right-8 lg:hidden"
+        >
+          <svg
+            id="nav-normal"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25"
+            />
+          </svg>
+          <svg
+            id="nav-closed"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="w-6 h-6 hidden"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M5.47 5.47a.75.75 0 011.06 0L12 10.94l5.47-5.47a.75.75 0 111.06 1.06L13.06 12l5.47 5.47a.75.75 0 11-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 01-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 010-1.06z"
+              clip-rule="evenodd"
+            />
+          </svg>
+        </label>
+        <nav
+          id="nav-list"
+          class="text-xs sm:text-sm md:text-lg font-semibold flex flex-col gap-6 lg:gap-3 items-center bg-[#ffffff97] absolute w-[100vw] h-[0] py-0 lg:static lg:w-auto lg:h-auto lg:flex-row lg:bg-transparent lg:justify-between lg:text-sm overflow-hidden transition-all"
+        >
+          <li id="solu" class="list-none flex gap-1">
+            <a href="">IT Solutions</a
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-4 self-end hidden lg:block"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+              />
+            </svg>
+          </li>
+          <li id="serv" class="list-none flex gap-1">
+            <a href="">IT Services</a
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-4 self-end hidden lg:block"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+              />
+            </svg>
+          </li>
+          <li id="tech" class="list-none flex gap-1">
+            <a href="">Technical support</a
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-4 self-end hidden lg:block"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+              />
+            </svg>
+          </li>
+          <li id="soft" class="list-none flex gap-1">
+            <a href="">Software</a
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-4 self-end hidden lg:block"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+              />
+            </svg>
+          </li>
+          <li id="comp" class="list-none flex gap-1">
+            <a href="">Our Company</a
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-4 self-end hidden lg:block"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+              />
+            </svg>
+          </li>
+          <li id="care" class="list-none flex gap-1">
+            <a href="">Career</a
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-4 self-end hidden lg:block"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+              />
+            </svg>
+          </li>
+          <li id="pl" class="list-none text-blue-400">
+            <a href="">PL</a>
+          </li>
+          <li
+            id="cont"
+            class="list-none text-white bg-pink-500 rounded-full px-5 py-1.5"
+          >
+            <a href="">Contact</a>
+          </li>
+        </nav>
+      </section>
+    </header>
+  </body>
+</html>
